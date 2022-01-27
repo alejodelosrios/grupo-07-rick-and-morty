@@ -76,4 +76,5 @@ User:
 - email
 
 La relación de usuario con post es de 1 a n: ya que un mismo usuario puede escribir varios post. La relación de post con categorías es de n a n, ya que un post puede tener varias categorías asociadas y las categorías pueden ser compartidas por varios posts.
+
 # Project-Rick-and-Morty
