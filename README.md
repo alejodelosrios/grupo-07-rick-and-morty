@@ -2,7 +2,7 @@
 
 ## Objetivos del Proyecto
 
-- Construir una App utlizando React, Redux, Node y Sequelize
+-   Construir una App utlizando React, Redux, Node y Sequelize
 
 ## Comenzando
 
@@ -49,9 +49,9 @@ En este ejercicio vamos a crear una APP que utilice la API de [Rick y Morty](htt
 
 Con tu App podremos:
 
-- Listar los personajes: En la pàgina principal, mostrar solo: -id y -title de los personajes
-- Al hacer click en cada personaje: mostrar -body y los episodios en los que aparece.
-- Se debe poder agregar nuevos episodios a cada personaje
+-   Listar los personajes: En la pàgina principal, mostrar solo: -id y -title de los personajes
+-   Al hacer click en cada personaje: mostrar -body y los episodios en los que aparece.
+-   Se debe poder agregar nuevos episodios a cada personaje
 
 ### Backend
 
@@ -59,21 +59,21 @@ El backend tendrá los siquientes modelos:
 
 Personaje:
 
-- id
-- name
-- image
+-   id
+-   name
+-   image
 
 Category:
 
-- id
-- name
+-   id
+-   name
 
 User:
 
-- id
-- name
-- username
-- email
+-   id
+-   name
+-   username
+-   email
 
 La relación de usuario con post es de 1 a n: ya que un mismo usuario puede escribir varios post. La relación de post con categorías es de n a n, ya que un post puede tener varias categorías asociadas y las categorías pueden ser compartidas por varios posts.
 
