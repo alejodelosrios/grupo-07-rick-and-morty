@@ -14,6 +14,7 @@ const CharactersContainer = () => {
             name={char.name}
             image={char.image}
           />
+
         ))
       ) : (
         <p>No cargaron los personajes</p>
